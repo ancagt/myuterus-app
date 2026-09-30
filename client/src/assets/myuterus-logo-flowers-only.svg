@@ -1,0 +1,45 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MyUterus flowers only logo">
+  <defs>
+    <linearGradient id="flowerOnly" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f9dfe9"/>
+      <stop offset="100%" stop-color="#e9afc6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="144" height="144" rx="36" fill="#fffafc"/>
+
+  <g>
+    <g fill="url(#flowerOnly)">
+      <g transform="translate(38 25)">
+        <ellipse cx="0" cy="0" rx="8" ry="15" transform="rotate(-24)"/>
+        <ellipse cx="0" cy="0" rx="8" ry="15" transform="rotate(24)"/>
+        <ellipse cx="0" cy="0" rx="8" ry="15" transform="rotate(90)"/>
+        <circle cx="0" cy="0" r="4.5" fill="#f7eac8"/>
+      </g>
+      <g transform="translate(122 25)">
+        <ellipse cx="0" cy="0" rx="8" ry="15" transform="rotate(-24)"/>
+        <ellipse cx="0" cy="0" rx="8" ry="15" transform="rotate(24)"/>
+        <ellipse cx="0" cy="0" rx="8" ry="15" transform="rotate(90)"/>
+        <circle cx="0" cy="0" r="4.5" fill="#f7eac8"/>
+      </g>
+      <g transform="translate(38 134)">
+        <ellipse cx="0" cy="0" rx="7" ry="12" transform="rotate(-24)"/>
+        <ellipse cx="0" cy="0" rx="7" ry="12" transform="rotate(24)"/>
+        <ellipse cx="0" cy="0" rx="7" ry="12" transform="rotate(90)"/>
+        <circle cx="0" cy="0" r="4" fill="#f7eac8"/>
+      </g>
+      <g transform="translate(122 134)">
+        <ellipse cx="0" cy="0" rx="7" ry="12" transform="rotate(-24)"/>
+        <ellipse cx="0" cy="0" rx="7" ry="12" transform="rotate(24)"/>
+        <ellipse cx="0" cy="0" rx="7" ry="12" transform="rotate(90)"/>
+        <circle cx="0" cy="0" r="4" fill="#f7eac8"/>
+      </g>
+    </g>
+
+    <g fill="none" stroke="#d892b0" stroke-width="2.3" stroke-linecap="round" opacity="0.9">
+      <path d="M80 52 C 80 80, 80 104, 80 128"/>
+      <path d="M64 72 C 72 76, 76 80, 80 88"/>
+      <path d="M96 72 C 88 76, 84 80, 80 88"/>
+    </g>
+  </g>
+</svg>

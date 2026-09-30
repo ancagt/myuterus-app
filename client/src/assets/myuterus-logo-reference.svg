@@ -1,0 +1,67 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="MyUterus floral logo">
+  <defs>
+    <linearGradient id="petalA" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fbe5ef"/>
+      <stop offset="100%" stop-color="#f0bed4"/>
+    </linearGradient>
+    <linearGradient id="petalB" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8d9e8"/>
+      <stop offset="100%" stop-color="#e7b0ca"/>
+    </linearGradient>
+    <linearGradient id="uterusGrad" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#d98db1"/>
+      <stop offset="100%" stop-color="#af5f8c"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#b0698a" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)">
+    <rect x="12" y="12" width="232" height="232" rx="58" fill="#fffafc"/>
+
+    <g opacity="0.98">
+      <g transform="translate(52 58)">
+        <ellipse cx="0" cy="0" rx="18" ry="28" fill="url(#petalA)" transform="rotate(-22 0 0)"/>
+        <ellipse cx="0" cy="0" rx="18" ry="28" fill="url(#petalA)" transform="rotate(22 0 0)"/>
+        <ellipse cx="0" cy="0" rx="18" ry="28" fill="url(#petalA)" transform="rotate(90 0 0)"/>
+        <circle cx="0" cy="0" r="10" fill="#f5e8be"/>
+      </g>
+      <g transform="translate(204 58)">
+        <ellipse cx="0" cy="0" rx="18" ry="28" fill="url(#petalA)" transform="rotate(-22 0 0)"/>
+        <ellipse cx="0" cy="0" rx="18" ry="28" fill="url(#petalA)" transform="rotate(22 0 0)"/>
+        <ellipse cx="0" cy="0" rx="18" ry="28" fill="url(#petalA)" transform="rotate(90 0 0)"/>
+        <circle cx="0" cy="0" r="10" fill="#f5e8be"/>
+      </g>
+      <g transform="translate(52 186)">
+        <ellipse cx="0" cy="0" rx="15" ry="24" fill="url(#petalB)" transform="rotate(-18 0 0)"/>
+        <ellipse cx="0" cy="0" rx="15" ry="24" fill="url(#petalB)" transform="rotate(18 0 0)"/>
+        <ellipse cx="0" cy="0" rx="15" ry="24" fill="url(#petalB)" transform="rotate(90 0 0)"/>
+        <circle cx="0" cy="0" r="8" fill="#f5e8be"/>
+      </g>
+      <g transform="translate(204 186)">
+        <ellipse cx="0" cy="0" rx="15" ry="24" fill="url(#petalB)" transform="rotate(-18 0 0)"/>
+        <ellipse cx="0" cy="0" rx="15" ry="24" fill="url(#petalB)" transform="rotate(18 0 0)"/>
+        <ellipse cx="0" cy="0" rx="15" ry="24" fill="url(#petalB)" transform="rotate(90 0 0)"/>
+        <circle cx="0" cy="0" r="8" fill="#f5e8be"/>
+      </g>
+    </g>
+
+    <g>
+      <path d="M128 58 C 172 58, 202 89, 202 124 C 202 169, 170 195, 128 204 C 86 195, 54 169, 54 124 C 54 89, 84 58, 128 58 Z" fill="url(#uterusGrad)" stroke="#7b385f" stroke-width="4"/>
+      <circle cx="95" cy="104" r="22" fill="#f7c7b7" stroke="#7b385f" stroke-width="4"/>
+      <circle cx="161" cy="104" r="22" fill="#f7c7b7" stroke="#7b385f" stroke-width="4"/>
+      <circle cx="95" cy="104" r="9" fill="#fffaf9"/>
+      <circle cx="161" cy="104" r="9" fill="#fffaf9"/>
+      <path d="M91 145 C 104 136, 115 132, 128 131 C 142 132, 153 136, 166 145" fill="none" stroke="#fff6fa" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+      <path d="M128 165 C 112 168, 102 177, 102 190 C 102 201, 113 210, 128 215 C 143 210, 154 201, 154 190 C 154 177, 144 168, 128 165 Z" fill="#f5aac2" stroke="#7b385f" stroke-width="4"/>
+    </g>
+
+    <g fill="none" stroke="#7b385f" stroke-width="4" stroke-linecap="round" opacity="0.8">
+      <path d="M34 128 C 52 113, 60 92, 66 74"/>
+      <path d="M222 128 C 204 113, 196 92, 190 74"/>
+      <path d="M37 170 C 52 164, 64 155, 72 142"/>
+      <path d="M219 170 C 204 164, 192 155, 184 142"/>
+    </g>
+  </g>
+</svg>
